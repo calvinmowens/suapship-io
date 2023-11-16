@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@supabase/auth-ui-react": "^0.4.6",
+    "@supabase/supabase-js": "^2.38.4",
     "deno": "^0.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

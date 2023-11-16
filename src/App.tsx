@@ -21,17 +21,18 @@ const router = createBrowserRouter([
         children: [
           {
             path: ":pageNumber",
-            element: <AllPosts />
+            element: <AllPosts />,
           },
           {
             path: "post/:postId",
-            element: <PostView />
+            element: <PostView />,
           },
         ],
       },
       {
         path: "welcome",
-        element: <Welcome />
+        element: <Welcome />,
+        // loader: welcomeLoader,
       },
     ],
   },
